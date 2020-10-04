@@ -16,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(Duration(seconds: 03), () => Navigator.pushNamed(context, '/home'));
+    //Future.delayed(Duration(seconds: 03), () => Navigator.pushNamed(context, '/login'));
   }
   @override
   Widget build(BuildContext context) {
